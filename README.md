@@ -156,10 +156,9 @@ Ans. We should always create repository on Github and then we should clone it in
 Ans.
 
 1. git branch - to check branch
-2. git branch -M main - to rename branch
-3. git checkout <-branch name-> - to navigate from one branch to another
+2. git branch -er
 4. git checkout -b <-new branch name-> - to create a new branch
-5. git checkout -d <-branch name-> - to delete a branch
+5. git branch -d <-branch name-> - to delete a branch
 
 **A branch highlighted in green is the branch that we are currently in.**
 
@@ -182,6 +181,8 @@ Ans. There are 2 ways in which we can merge the code :-
 Ans. Using pull command
 
 Pull command is used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+    * git pull origin main
 
 ## Q27. What is merge conflicts?
 Ans. An event that takes place when Git is unable to automatically resolve differences in code between two commits.
