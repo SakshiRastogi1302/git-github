@@ -121,7 +121,7 @@ Ans. It upload local repo content to remote repo.
 ## Q16. What is init command?
 Ans. It is used to create a new git repo.
 
-## Q17. How to create a folder?
+## Q17. How to create a folder in VSCode using Git?
 Ans. Using mkdir <-folder name-> command. This folder is not a github repo. To make it, run command git init.
 
 ## Q18. How to make the local git repository available on Github?
