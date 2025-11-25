@@ -156,7 +156,8 @@ Ans. We should always create repository on Github and then we should clone it in
 Ans.
 
 1. git branch - to check branch
-2. git branch -er
+2. git branch -M main - to rename branch
+3. git checkout <-branch name-> - to navigate
 4. git checkout -b <-new branch name-> - to create a new branch
 5. git branch -d <-branch name-> - to delete a branch
 
@@ -195,7 +196,7 @@ Ans.
     * git reset - used to reset changes in multiple files
 
 2. Committed Changes (for one commit)
-    * git reset HEAD~1 (latest commit is HEAD and HEAD`1 says move HEAD 1 step behind).
+    * git reset HEAD~1 (latest commit is HEAD and HEAD~1 says move HEAD 1 step behind).
 
 3. Committed Changes (for multiple commits)
     * git reset <-commit hash->. Write hash value of that commit to which you want to go. This command will make changes in Github.
