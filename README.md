@@ -128,7 +128,11 @@ Ans. Using mkdir <-folder name-> command. This folder is not a github repo. To m
 Ans.
 
 1. Create a repository on Github.
-2. Run command :- git remote add origin <-link of repository>
+2. Run command **git init** in VSCode to make the folder a github repository.
+3. Run command :- git remote add origin <-link of repository>
+4. git add. to stage the changes
+5. git commit -m "message" to commit the changes
+5. git push -u origin main
 
 ## Q19. How to verify remote?
 Ans. git remote -v (check which one is the remote repository).
